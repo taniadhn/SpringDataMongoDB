@@ -1,5 +1,7 @@
-package com.mongodb;
+package com.mongodb.config;
 
+import com.mongodb.ConnectionString;
+import com.mongodb.MongoClientSettings;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import org.bson.UuidRepresentation;
